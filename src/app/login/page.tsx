@@ -1,13 +1,14 @@
-import RegisterForm from "./components/RegisterForm";
+import React from "react";
+import LoginForm from "./components/LoginForm";
 
-const Register = () => {
+ const Loginpage = () => {
    return (
       <div className="flex min-h-svh flex-col items-center justify-center bg-[url('/bgdood.png')] bg-blend-darken bg-black/[.50]  p-6 md:p-10">
          <div className="w-full max-w-sm md:max-w-3xl">
-            <RegisterForm />
+            <LoginForm />
          </div>
       </div>
    );
 };
 
-export default Register;
+export default Loginpage;
